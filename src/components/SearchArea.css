@@ -1,0 +1,36 @@
+.searchArea {
+    display: flex;
+    height: 2.5rem;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1rem;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    transition: 0.2s;
+  }
+  
+  .searchArea:hover {
+    background-color: #DFDFDF;
+  }
+  
+  .searchArea input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 90%;
+    font-size: 1rem;
+  }
+  
+  .searchArea button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .searchIcon {
+    width: 1.4rem;
+    height: 1.4rem;
+    justify-content: center;
+  }

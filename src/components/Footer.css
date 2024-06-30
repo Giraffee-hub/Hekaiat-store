@@ -1,0 +1,35 @@
+.footer {
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footerlink {
+  text-decoration: none;
+  padding: 0 1rem;
+  color: black;
+}
+
+.footer p {
+  padding: 1rem 0 0 0;
+}
+
+.footerlink:hover {
+    text-decoration: underline;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer p a:hover {
+  border-bottom: dashed 1px black;
+}

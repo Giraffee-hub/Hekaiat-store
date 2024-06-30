@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.mainSection {
+  padding-bottom: 6rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 1.25rem;
+  gap: 2%
+}
+
+.products a {
+  color: black;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+/* max screen */
+@media screen and (min-width: 771px) {
+  .mainSection {
+    width: 70%;
+    margin: auto;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 1.25rem;
+  }
+
+  .delivery {
+    height: 3rem;
+  }
+}
+
+/* ====== Mid screen ====== */
+@media screen and (min-width: 430px) and (max-width: 770px) {
+  .mainSection {
+    width: 90%;
+    margin: auto;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 1.25rem;
+  }
+
+  .delivery {
+    height: 3rem;
+  }
+}
+
+/* ====== small screen ====== */
+@media screen and (max-width: 325px) {
+  .mainSection {
+    width: 95%;
+    margin: auto;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 1.25rem 8rem 1.25rem;
+  }
+}

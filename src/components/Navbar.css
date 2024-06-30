@@ -1,0 +1,42 @@
+.Navbar {
+    padding: 1rem 0 0 0;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 1rem;
+    border-radius: 50px;
+    /* transition: 0.3s; */
+}
+
+.link:hover {
+    background-color: #DFDFDF;
+}
+
+.active {
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.active:hover {
+    background-color: black;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.search-continer {
+    position: relative;
+}
